@@ -13,7 +13,7 @@ def getMatch(needle):
     return res.text.splitlines()[22]
 
 
-while idx < 32:
+while idx < 33:
     print("looking for %i" % idx)
     # grep -i "^$(cut -c{idx} /etc/natas_webpass/natas17)" dictionary.txt
     match = getMatch("^$(cut -c%i /etc/natas_webpass/natas17)" % idx)
