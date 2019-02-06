@@ -190,5 +190,7 @@ natas17
 8Ps3H0GWbn5rd9S7GmAdgQNdkhPkq9cw
 
 natas18
-1s: xvKIqDjy4OPv7wCRgDlAj0pFsCsDjhdP
-2s: xvKIqDjy4OPv7wCRgDlmj0pFsCsDjhdP
+xvKIqDjy4OPv7wCRgDlmj0pFsCsDjhdP
+
+natas19
+4IwIrekcuZlA9OsjOkoUtwU6lhokCPYs
