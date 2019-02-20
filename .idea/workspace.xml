@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3e35a97-3a6f-493e-ab0f-ce7d47990443" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/php-sess.natas20.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php-strcmp.natas24.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wargames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wargames.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,14 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wargames.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="727">
+              <caret line="213" column="2" selection-start-line="213" selection-start-column="2" selection-end-line="213" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php-sess.natas20.py">
+        <entry file="file://$PROJECT_DIR$/php-strcmp.natas24.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="83" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+              <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -65,8 +72,9 @@
         <option value="$PROJECT_DIR$/sql-pw.natas17.py" />
         <option value="$PROJECT_DIR$/php-sess.natas18.py" />
         <option value="$PROJECT_DIR$/php-sess.natas19.py" />
-        <option value="$PROJECT_DIR$/wargames.txt" />
         <option value="$PROJECT_DIR$/php-sess.natas20.py" />
+        <option value="$PROJECT_DIR$/sql-pw.natas24.py" />
+        <option value="$PROJECT_DIR$/wargames.txt" />
       </list>
     </option>
   </component>
@@ -296,7 +304,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49936306" visible="true" weight="0.24177396" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936306" visible="true" weight="0.24892704" />
       <window_info id="Structure" order="1" sideWeight="0.50063694" side_tool="true" weight="0.2267525" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -304,7 +312,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" auto_hide="true" id="Find" order="1" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" auto_hide="true" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.64713377" />
+      <window_info anchor="bottom" auto_hide="true" id="Run" order="2" sideWeight="0.49928468" weight="0.64713377" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -347,7 +355,9 @@
     <MESSAGE value="create / vs get" />
     <MESSAGE value="small improvements" />
     <MESSAGE value="natas20 cracked" />
-    <option name="LAST_COMMIT_MESSAGE" value="natas20 cracked" />
+    <MESSAGE value="cracked natas21" />
+    <MESSAGE value="cracked natas22" />
+    <option name="LAST_COMMIT_MESSAGE" value="cracked natas22" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cat.php">
@@ -453,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wargames.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="198" column="32" selection-start-line="198" selection-end-line="198" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php-sess.natas19.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -472,11 +475,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php-sess.natas20.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="83" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
+        <state relative-caret-position="120">
+          <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wargames.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="213" column="2" selection-start-line="213" selection-start-column="2" selection-end-line="213" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php-strcmp.natas24.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
         </state>
       </provider>
     </entry>
