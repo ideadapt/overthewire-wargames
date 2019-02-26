@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3e35a97-3a6f-493e-ab0f-ce7d47990443" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/php-strcmp.natas24.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php-strcmp.natas24.py" beforeDir="false" afterPath="$PROJECT_DIR$/php-strcmp.natas24.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wargames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wargames.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,20 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wargames.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="213" column="2" selection-start-line="213" selection-start-column="2" selection-end-line="213" selection-end-column="2" />
+            <state relative-caret-position="667">
+              <caret line="213" selection-start-line="213" selection-end-line="213" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php-strcmp.natas24.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -74,6 +74,7 @@
         <option value="$PROJECT_DIR$/php-sess.natas19.py" />
         <option value="$PROJECT_DIR$/php-sess.natas20.py" />
         <option value="$PROJECT_DIR$/sql-pw.natas24.py" />
+        <option value="$PROJECT_DIR$/php-strcmp.natas24.py" />
         <option value="$PROJECT_DIR$/wargames.txt" />
       </list>
     </option>
@@ -89,8 +90,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,6 +101,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,8 +304,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936306" visible="true" weight="0.24892704" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936306" visible="true" weight="0.25250357" />
       <window_info id="Structure" order="1" sideWeight="0.50063694" side_tool="true" weight="0.2267525" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -357,7 +359,8 @@
     <MESSAGE value="natas20 cracked" />
     <MESSAGE value="cracked natas21" />
     <MESSAGE value="cracked natas22" />
-    <option name="LAST_COMMIT_MESSAGE" value="cracked natas22" />
+    <MESSAGE value="cracked natas23&amp;4" />
+    <option name="LAST_COMMIT_MESSAGE" value="cracked natas23&amp;4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cat.php">
@@ -483,17 +486,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wargames.txt">
+    <entry file="file://$PROJECT_DIR$/php-strcmp.natas24.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="213" column="2" selection-start-line="213" selection-start-column="2" selection-end-line="213" selection-end-column="2" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php-strcmp.natas24.py">
+    <entry file="file://$PROJECT_DIR$/wargames.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        <state relative-caret-position="667">
+          <caret line="213" selection-start-line="213" selection-end-line="213" selection-end-column="32" />
         </state>
       </provider>
     </entry>
