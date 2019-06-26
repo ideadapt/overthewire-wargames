@@ -1,0 +1,26 @@
+100 k#pDli4V*s
+60  l}6D$i4W3x 31 12 2018
+50  pes[Bi4W0w 30 11 2018
+50  q:<Iqi4W0w 30 09 2018
+50  n<Mibiw09x 31 01 2019
+40  pes[Bi4V%v 30 11 2018
+40  mNYS#iw06w 28 02 2019
+30	mNYS#iw03v 28 02 2019
+30  n(XRviw03v 30 06 2019
+30  o*I]ph.u*t
+30  o*IViiw03v 31 03 2019
+10  o*IViiv#%t 31 03 2019
+10  mNYS#iv#%t 28 02 2019
+
+
+pes[Bi = 30 11 18
+l}6D$i = 31 12 18
+o*IVii = 31 03 19
+mNYS#i = 28 02 19
+v#%t = 10
+w03v = 30
+4V%v = 40
+w06w = 40
+4W0w = 50
+w09x = 50
+4W3x = 60
